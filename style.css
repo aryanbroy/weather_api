@@ -1,0 +1,177 @@
+@font-face {
+    font-family: uniSansHeavy;
+    src: url("./fonts/Uni\ Sans\ Heavy.otf");
+}
+
+@font-face {
+    font-family: panton;
+    src: url("./fonts/Panton-BlackCaps.otf");
+}
+
+@font-face {
+    font-family: metro;
+    src: url("/fonts/Metropolis-SemiBold.otf");
+}
+
+@font-face {
+    font-family: metroThin;
+    src: url("./fonts/Metropolis-Thin.otf");
+}
+
+@font-face {
+    font-family: uniSansThin;
+    src: url("./fonts/Uni\ Sans\ Thin.otf");
+}
+
+body{
+    background-image: linear-gradient(to right top, #333941, #555462, #7e6e7f, #ab8a97, #d6a9a9);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.insideContainer{
+    width: 25rem;
+    height: 38rem;
+    border-radius: 35px;
+    padding: 50px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
+}
+
+#searchImg{
+    padding: 4px;
+    width: 25px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#search{
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 25px;
+    width: 300px;
+}
+
+#searchBtn{
+    border-radius: 50%;
+}
+
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+
+#windSpeed, #humidity{
+    width: 49px;
+    margin-right: 13px;
+    
+}
+
+#weatherDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.para{
+    display: flex;
+    align-items: center;
+}
+
+#date{
+    font-family: metroThin;
+    font-size: 30px;
+    font-weight:lighter;
+    margin-bottom: 0;
+}
+
+#time{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+#windSpan, #humidSpan{
+    font-family: uniSpanThin;
+    font-weight: 900;
+    font-size: 30px;
+    margin-right: 3px;
+}
+
+#search, #searchBtn{
+    background-image: linear-gradient(to bottom, #ffffff, #efefef, #e0e0e0, #d1d1d1, #c2c2c2);
+    border: none;
+}
+
+.lower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lowerPara{
+    margin: 0;
+}
+
+#tempSpan{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#weatherDiv{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+#celcius{
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.one{
+    margin-top: 40px;
+}
+
+#weatherSpan{
+    font-family: metro;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+#citySpan{
+    font-family: metroThin;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+#dash{
+    font-size: 80px;
+    opacity: 0.3;
+}
+
+.innerLower{
+    padding-right: 60px;
+}
+
+#time{
+    font-family: uniSansHeavy;
+    font-size: 66px;
+    letter-spacing: 8px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#thisHaze{
+    height: 224px;
+    width: 224px;
+}

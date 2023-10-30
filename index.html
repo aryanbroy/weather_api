@@ -7,14 +7,49 @@
     <title>Weather Api</title>
 </head>
 <body>
-    <input type="search" name="search" id="search" value="cuttack">
-    <button id="searchBtn">Search</button>
+    
 
-    <h2>City Name: <span id="citySpan"></span></h2>
-    <h2>Weather Description: <span id="weatherSpan"></span> </h2>
-    <h2>Temperature: <span id="tempSpan"></span> </h2>
-    <h2>Humidity: <span id="humidSpan"></span></h2>
-    <h2>Wind Speed: <span id="windSpan"></span></h2>
+    <div class="container">
+        <div class="insideContainer">
+            <div class="input">
+                <input type="search" name="search" id="search" value="cuttack">
+                <button id="searchBtn"><img src="./ images/search.png" alt="" id="searchImg"></button>
+            </div>
+            
+            <div class="one">
+                <div class="dateTime">
+                    <p id="date"></p>
+                    <p id="time"></p>
+                </div>
+                <div class="windHumid">
+                    <p class="para">
+                        <img src="./ images/wind.png" alt="" id="windSpeed">
+                        <span id="windSpan"></span><span style="margin-top: 10px;">km/h</span>
+                    </p>
+                    <p class="para"><img src="./ images/humidity.png" alt="" id="humidity"> <span id="humidSpan"></span><span style="margin-top: 10px;">%</span></p>
+                </div>
+                
+            </div>
+            
+            <div id="weatherDiv">
+                <img src="" alt="current weather image" id="weatherImg">
+            </div>
+            
+            <div class="lower">
+                <p class="lowerPara"><span id="tempSpan"></span></p class="lowerPara">
+                    <p class="lowerPara" id="dash">|</p>
+                <div class="innerLower">
+                    <p class="lowerPara"><span id="weatherSpan"></span> </p>
+                    
+                    <p class="lowerPara"><span id="citySpan"></span></p">
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+    
 
     <script src="script.js"></script>
 </body>
